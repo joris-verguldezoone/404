@@ -1,0 +1,60 @@
+#titre_h1 {
+    font-family: 'Bangers', cursive;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+
+.titre_h2 {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 60px;
+}
+
+.police_p {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 40px;
+    padding: 50px;
+    color: white;
+
+
+}
+
+#backgroundcolor {
+    background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%) no-repeat;
+
+}
+
+#clignoter {
+    animation: Test 2s 3;
+    color: blue;
+    width: 500px;
+    float: none;
+    text-align: center;
+    margin-left: 45%;
+    height: 50px;
+
+}
+
+@keyframes Test {
+    0% {
+        opacity: 0.9;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.9;
+    }
+}
+
+#photo_background {
+    display: flex;
+    flex-direction: column;
+    margin-right: 400px;
+    margin-left: 400px;
+}
